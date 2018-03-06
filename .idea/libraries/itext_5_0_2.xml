@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="itext-5.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/jar/itext-2.0.8.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar/core-renderer-R8pre2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar/pd4ml/fonts/ss_css2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar/itextpdf-5.4.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar/xmlworker-5.4.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar/pd4ml/pd4ml-370fx2pro.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
