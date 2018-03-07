@@ -22,30 +22,30 @@ public class convertHtmlToPdf {
     protected int bottomValue = 10;
     protected int userSpaceWidth = 1300;
 
-    public static void main(String[] args) {
-        try {
-            convertHtmlToPdf jt = new convertHtmlToPdf();
-            jt.doConversion("file:///D:/Test/popup%20(1).html", "d:/pd4ml.pdf");
-//            jt.doConversion("http://xhtmlrenderer.java.net/news.html", "d:/pd4ml.pdf");
-            File pdfFile = new File("d:/pd4ml.pdf");
-            StringBuffer html = new StringBuffer();
-//            html.append("<html>")
-//                    .append("<head>")
-//                    .append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />")
-//                    .append("</head>")
-//                    .append("<body>")
-//                    .append("<font face=\"KaiTi_GB2312\">")
-//                    .append("<font color='red' size=22>显示中文</font>")
-//                    .append("</font>")
-//                    .append("</body></html>");
-            StringReader strReader = new StringReader(html.toString());
-            jt.generatePDF_1(pdfFile, strReader);
-//            demo_1();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
-    }
+//    public static void main(String[] args) {
+//        try {
+//            convertHtmlToPdf jt = new convertHtmlToPdf();
+//            jt.doConversion("file:///D:/Test/popup%20(1).html", "d:/pd4ml.pdf");
+////            jt.doConversion("http://xhtmlrenderer.java.net/news.html", "d:/pd4ml.pdf");
+//            File pdfFile = new File("d:/pd4ml.pdf");
+//            StringBuffer html = new StringBuffer();
+////            html.append("<html>")
+////                    .append("<head>")
+////                    .append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />")
+////                    .append("</head>")
+////                    .append("<body>")
+////                    .append("<font face=\"KaiTi_GB2312\">")
+////                    .append("<font color='red' size=22>显示中文</font>")
+////                    .append("</font>")
+////                    .append("</body></html>");
+//            StringReader strReader = new StringReader(html.toString());
+//            jt.generatePDF_1(pdfFile, strReader);
+////            demo_1();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//    }
 
     public void generatePDF_1(File outputPDFFile, StringReader strReader) throws Exception {
         FileOutputStream fos = new FileOutputStream(outputPDFFile);

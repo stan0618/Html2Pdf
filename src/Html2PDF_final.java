@@ -1,17 +1,13 @@
 import java.awt.Insets;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.StringReader;
-import java.net.URL;
 
 import org.zefer.pd4ml.PD4Constants;
 import org.zefer.pd4ml.PD4ML;
 
-import com.lowagie.text.FontFactory;
-
-public class rrr {
+public class Html2PDF_final {
     public static void main(String[] args) throws Exception {
-        rrr converter = new rrr();
+        Html2PDF_final converter = new Html2PDF_final();
         converter.generatePDF_2(new File("d:/demo_ch_pd4ml2_a.pdf"), "D:/Test/Northeastern University_ a leader in global experiential learning in Boston, MA.html");
         File pdfFile = new File("d:/demo_ch_pd4mlssss.pdf");
     }
